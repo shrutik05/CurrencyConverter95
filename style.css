@@ -1,0 +1,74 @@
+*{
+       margin: 0px;
+       padding :0 px;
+}
+
+body{
+        display: flex;
+    justify-content: center;
+      align-items: center;
+      background-color: #f4e4ba;
+      min-height: 100vh;
+
+}
+
+.curconv{
+      background-color: #fff;
+      padding :2rem;
+      margin:2rem;
+      border: solid black 0.3rem ;
+       border-radius: 0.5rem;
+       min-height: 45vh;
+}
+form{
+       margin: 2rem  1rem 0 1rem;
+}
+.selection{
+         display: flex;
+          justify-content : space-between;
+            align-items : center;
+            margin-top:2rem;
+
+}
+   form select,button,input{
+         border:none;
+           width: 100%;
+           outline: none;
+  border-radius: 0.75rem;
+   }
+     form input{
+          font-size: 1.5rem;
+          border: 1px solid lightgray;
+          padding-left: 0.5rem;
+          height: 2.5rem;
+     }
+#ss{
+        font-size: 1.3rem;
+        
+}
+img{
+       max-width: 2.3rem;    
+} 
+.flag{
+       border: 1px solid lightgray;
+       border-radius: 0.5rem;
+       display: flex;
+       justify-content: center;
+       align-items : center;
+}
+ select{
+   font-size: 1rem;
+   width:auto;
+}
+.msg{
+     font-size: 1.5rem;
+       margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+button{
+          height: 3.2rem;
+           background-color: #af4d98;
+           color: #fff;
+           font-size: 1rem;
+           cursor: pointer;
+}
